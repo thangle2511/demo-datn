@@ -111,28 +111,3 @@ function TempChartinfo(props) {
 }
 
 export default TempChartinfo;
-
-// import * as React from "react";
-// import Paper from "@material-ui/core/Paper";
-// import {
-//     ArgumentAxis,
-//     ValueAxis,
-//     Chart,
-//     LineSeries
-// } from "@devexpress/dx-react-chart-material-ui";
-
-// const ChartMaterial = (props) => {
-//     const { data } = props
-//     return (
-//         <Paper>
-//             <Chart data={data}>
-//                 <ArgumentAxis />
-//                 <ValueAxis />
-
-//                 <LineSeries valueField="value" argumentField="ts" />
-//             </Chart>
-//         </Paper>
-//     );
-// };
-
-// export default ChartMaterial;
