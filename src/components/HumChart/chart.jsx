@@ -103,7 +103,7 @@ function HumChartinfo(props) {
 
   return (
     <>
-      <div style={{ width: "1100px", height: "200px" }}>
+      <div sx={{ width: "100%", height: "200px" }}>
         <canvas ref={chartRef}></canvas>
       </div>
     </>
