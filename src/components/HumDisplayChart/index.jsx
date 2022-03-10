@@ -10,7 +10,7 @@ const getData = (dataCurrent) => {
 
 const options = {
   width: 400,
-  height: 200,
+  height: 170,
   redFrom: 60,
   redTo: 100,
   yellowFrom: 40,
