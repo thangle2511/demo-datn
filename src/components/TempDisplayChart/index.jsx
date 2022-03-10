@@ -10,13 +10,13 @@ const getData = (dataCurrent) => {
 
 const options = {
   min: -20,
-  max: 30,
+  max: 40,
   width: 400,
-  height: 200,
-  redFrom: 20,
-  redTo: 30,
-  yellowFrom: 15,
-  yellowTo: 20,
+  height: 170,
+  redFrom: 30,
+  redTo: 40,
+  yellowFrom: 20,
+  yellowTo: 30,
   minorTicks: 5,
 };
 
