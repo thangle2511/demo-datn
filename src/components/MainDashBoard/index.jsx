@@ -238,7 +238,7 @@ export default function MainDashBoard() {
     return () => {
       clearInterval(timer);
     };
-  }, [token]);
+  }, []);
 
 
 
