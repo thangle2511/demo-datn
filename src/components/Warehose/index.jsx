@@ -49,7 +49,7 @@ export default function Warehouse(props) {
 
     if (token && token !== "") {
       getCurrentData();
-      timer = setInterval(getCurrentData, 60000);
+      timer = setInterval(getCurrentData, 5000);
     }
     return () => {
       clearInterval(timer);
