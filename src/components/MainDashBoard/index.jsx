@@ -233,7 +233,7 @@ export default function MainDashBoard() {
     if (token && token !== "") {
       timer = setInterval(() => {
         getTotalAlarm(token)
-      }, 30000);
+      }, 3000);
     }
     return () => {
       clearInterval(timer);
